@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:background="@color/gris"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ENSAH Event App"
+            android:textSize="30dp"></TextView>
+
+        <Button
+            android:id="@+id/addEventBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addEvent"
+            android:text="Add New Event"></Button>
+
+        <Button
+            android:id="@+id/pastEventBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Past Events"></Button>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/customListView"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

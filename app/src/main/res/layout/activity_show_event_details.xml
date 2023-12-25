@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ShowEventDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Title Of the Event :"
+            android:textSize="25sp"
+            />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:id="@+id/titleEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Date Of Event :"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/dateEvent"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Posted By :"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="22sp"
+            android:textFontWeight="500"
+            android:id="@+id/userEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Description of The Event :"
+            android:textSize="21sp"
+            />
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="21sp"
+            android:id="@+id/descEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Created At :"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:id="@+id/created_atEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+</RelativeLayout>
